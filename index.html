@@ -26,9 +26,12 @@
       <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
         Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
       <div class="inputAndLogos">
-        <div class="input">
-          <input type="email" placeholder="Email address">
-          <button type="submit">Request access</button>
+        <div>
+          <form action="" class="input" id="form" novalidate>
+            <input type="email" placeholder="Email address" id="input">
+            <button type="submit">Request access</button>
+          </form>
+          <p class="error" id="error"></p>
         </div>
         <div class="logos">
           <img src="assets/desktop/spotify.svg" alt="">
