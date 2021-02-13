@@ -173,10 +173,22 @@ button:hover{
     display: none;
   }
 
+  .logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 150px;
+  }
+
+  .main{
+    padding: 10px;
+  }
+  
   .content{
     width: 100%;
     text-align: center;
     background:none;
+    margin-top: 0;
   }
 
   h1{
@@ -200,5 +212,18 @@ button:hover{
 
   input{
     width: 90%;
+    height: 46px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }  
+
+  button{
+    margin-left: 0;
+    width: 90%;
+    height: 46px;
+  }
+
+  .error{
+    padding-left: 0;
+  }
 }
